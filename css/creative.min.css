@@ -321,3 +321,17 @@ header.masthead p {
 .fa:before {
     color: #cfd3c9;
 }
+
+@media screen and (max-width: 575px) {
+    #about {
+        padding: 25px;
+    }
+    
+    #myImage {
+        max-width: 100%;
+    }
+
+    h7 {
+        font-size: 2rem;
+    }
+}
