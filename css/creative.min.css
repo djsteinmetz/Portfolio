@@ -353,15 +353,15 @@ header.masthead p {
     .overlay {
         display: none;
     }
-    .mobileDescription {
+    /* .mobileDescription {
         display: block!Important;
         position: absolute;
         bottom: 48px;
-        background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+        background: rgba(0, 0, 0, 0.5); 
         color: #f1f1f1;
         width: 100%;
         padding: 20px;
-    }
+    } */
 }
 
 .portfolioItem {
@@ -369,7 +369,7 @@ header.masthead p {
     padding: 0px;
     position: relative;
     overflow: hidden;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .image {
@@ -449,6 +449,6 @@ header.masthead p {
     max-width: 100%;
 }
 
-.container .mobileDescription {
+/* .container .mobileDescription {
     display: none;
-}
+} */
