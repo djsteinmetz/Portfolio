@@ -396,7 +396,8 @@ header.masthead p {
     text-align: center;
 }
 
-.portfolioItem:hover .overlay {
+.portfolioItem:hover .overlay,
+.portfolioItem:focus .overlay {
     opacity: 1;
 }
 
