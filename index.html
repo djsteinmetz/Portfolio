@@ -145,8 +145,8 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters popup-gallery">
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/Under-One-Woof-Full.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/Under-One-Woof.png" alt="Under One Woof App">
+          <a class="portfolio-box" href="img/portfolio/fullsize/Under-One-Woof-Full.jpg" title="Under One Woof">
+            <img class="img-fluid" src="img/portfolio/thumbnails/Under-One-Woof.png" alt="Under One Woof App" title="Under One Woof Application">
             <div class="portfolio-box-caption">
               <div class="portfolio-box-caption-content">
                 <div class="project-category text-faded">
@@ -237,59 +237,76 @@
       </div>
     </div>
   </section> -->
-  
-  <div class="container">
+
+  <div class="container" id="portfolio">
     <div class="row full-width">
-      <div class="col-md-4 portfolioItem">
-        <span class="initDisplay">
-          Portfolio Block 1
-        </span>
-        <span class="overlay">
-          Hello
+      <div class="col-lg-4 portfolioItem">
+        <img src="img/portfolio/thumbnails/Under-One-Woof.png" alt="Under One Woof App" class="image">
+        <span class="overlay" data-toggle="modal" data-target="#myModal">
+          <div class="text">
+            <h2>Under One Woof - Group Project 1</h2></strong>
+            <h3>HTML, CSS &amp; Bootstrap, Javascript &amp; jQuery, PetFinder API, Google Maps API, FirebaseDB</h3>
+          </div>
         </span>
       </div>
-      <div class="col-md-4 portfolioItem">
-        <span class="initDisplay">
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="img/portfolio/fullsize/Under-One-Woof-Full.jpg" alt="Under One Woof Fullscreen" class="popupImage">
+            </div>
+            <div class="modal-body">
+              <p class="text-center" style="color:white"><a href="https://djsteinmetz.github.io/Under-One-Woof" target="_blank">Full Application</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-4 portfolioItem">
+        <span class="image">
           Portfolio Block 2
         </span>
         <span class="overlay">
-          Hello
+          <p class="text">Hello</p>
         </span>
       </div>
-      <div class="col-md-4 portfolioItem">
-        <span class="initDisplay">
+      <div class="col-lg-4 portfolioItem">
+        <span class="image">
           Portfolio Block 3
         </span>
-        <span class="overlay text">
-          Hello
+        <span class="overlay">
+          <p class="text">Hello</p>
         </span>
       </div>
     </div>
-    <div class="row full-width">
-      <div class="col-md-4 portfolioItem">
-        <span class="initDisplay">
+    <!-- <div class="row full-width">
+      <div class="col-lg-4 portfolioItem">
+        <span class="image">
           Portfolio Block 4
         </span>
         <span class="overlay">
-          Hello
+          <p class="text">Hello</p>
         </span>
       </div>
-      <div class="col-md-4 portfolioItem">
-        <span class="initDisplay">
+      <div class="col-lg-4 portfolioItem">
+        <span class="image">
           Portfolio Block 5
         </span>
         <span class="overlay">
-          Hello
+          <p class="text">Hello</p>
         </span>
       </div>
-      <div class="col-md-4 portfolioItem">
-        <span class="initDisplay">
+      <div class="col-lg-4 portfolioItem">
+        <span class="image">
           Portfolio Block 6
         </span>
         <span class="overlay">
-          Hello
+          <p class="text">Hello</p>
         </span>
-      </div>
+      </div> -->
     </div>
   </div>
 
