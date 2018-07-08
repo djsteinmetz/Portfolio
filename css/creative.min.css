@@ -417,7 +417,7 @@ header.masthead p {
     margin-left: -50vw;
     margin-right: -50vw;
 }
-.modal {
+/* .modal {
     cursor: pointer;
 }
 
@@ -428,7 +428,7 @@ header.masthead p {
 .modal-body {
     padding: 0px;
     background: none;
-}
+} */
 .popupImage {
     max-width: 100%;
 }
