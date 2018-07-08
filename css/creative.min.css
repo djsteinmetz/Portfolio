@@ -348,6 +348,9 @@ header.masthead p {
         background-size: cover;
         background-attachment: unset;
     }
+    .overlay {
+        display: none;
+    }
 }
 
 .portfolioItem {
@@ -355,6 +358,7 @@ header.masthead p {
     padding: 0px;
     position: relative;
     overflow: hidden;
+    border: 1px solid red;
 }
 
 .image {
