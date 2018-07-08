@@ -358,7 +358,7 @@ header.masthead p {
     padding: 0px;
     position: relative;
     overflow: hidden;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .image {
@@ -420,14 +420,14 @@ header.masthead p {
     cursor: pointer;
 }
 
-/* .modal-content {
+.modal-content {
     background-color: transparent;
     border: none;
 }
 .modal-body {
     padding: 0px;
     background: none;
-} */
+}
 .popupImage {
     max-width: 100%;
 }
