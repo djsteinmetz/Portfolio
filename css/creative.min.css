@@ -348,6 +348,9 @@ header.masthead p {
         background-size: cover;
         background-attachment: unset;
     }
+    .overlay {
+        display: none;
+    }
 }
 
 .portfolioItem {
