@@ -23,6 +23,10 @@
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
+  <!-- Mobile Modal fix -->
+  <link href="dist/css/fs-modal.min.css" rel="stylesheet">
+
+
   <!-- Custom styles for this template -->
   <link href="css/creative.min.css" rel="stylesheet">
 
@@ -78,7 +82,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-md-12 text-center">
-          <h2 class="section-heading text-white">About Me</h2>
+          <h4 class="section-heading text-white">About Me</h4>
           <hr class="light my-4">
           <img id="myImage" src="img/about/2018-03-31-0001.jpg">
         </div>
@@ -97,7 +101,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Resume</h2>
+          <h4 class="section-heading">Resume</h4>
           <hr class="my-4">
         </div>
       </div>
@@ -107,7 +111,7 @@
         <div class="col-lg-3 col-md-6 text-center">
           <div class="resume-box mt-5 mx-auto">
             <i class="fa fa-4x fa-graduation-cap text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">UW-River Falls</h3>
+            <h4 class="mb-3">UW-River Falls</h4>
             <p class="text-muted mb-0">2011-2014</p>
             <p class="text-muted mb-0">Bachelor of Fine Arts</p>
             <p class="text-muted mb-0">Photography</p>
@@ -116,7 +120,7 @@
         <div class="col-lg-3 col-md-6 text-center">
           <div class="resume-box mt-5 mx-auto">
             <i class="fa fa-4x fa-certificate text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">UMN Coding Bootcamp</h3>
+            <h4 class="mb-3">UMN Coding Bootcamp</h4>
             <p class="text-muted mb-0">2018</p>
             <p class="text-muted mb-0">Full Stack Developement</p>
           </div>
@@ -124,7 +128,7 @@
         <div class="col-lg-3 col-md-6 text-center">
           <div class="resume-box mt-5 mx-auto">
             <i class="fa fa-4x fa-terminal text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">JFUERST Photo</h3>
+            <h4 class="mb-3">JFUERST Photo</h4>
             <p class="text-muted mb-0">2015 - </p>
             <p class="text-muted mb-0">Photo Editor</p>
           </div>
@@ -132,7 +136,7 @@
         <div class="col-lg-3 col-md-6 text-center">
           <div class="resume-box mt-5 mx-auto">
             <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">Volacious Brands</h3>
+            <h4 class="mb-3">Volacious Brands</h4>
             <p class="text-muted mb-0">2015 - </p>
             <p class="text-muted mb-0">Web Developement</p>
           </div>
@@ -242,7 +246,7 @@
     <div class="row full-width">
       <div class="col-lg-4 portfolioItem">
         <img src="img/portfolio/thumbnails/Under-One-Woof.png" alt="Under One Woof App" class="image">
-        <span class="overlay" data-toggle="modal" data-target="#myModal">
+        <span class="overlay" data-toggle="modal" data-target="#myModal" data-dismiss="modal">
           <div class="text">
             <h2>Under One Woof - Group Project 1</h2></strong>
             <h3>HTML, CSS &amp; Bootstrap, Javascript &amp; jQuery, PetFinder API, Google Maps API, FirebaseDB</h3>
@@ -250,7 +254,7 @@
         </span>
       </div>
       <!-- Modal -->
-      <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal fade modal-fullscreen" id="myModal" role="dialog">
         <div class="modal-dialog modal-dialog-centered modal-lg">
 
           <!-- Modal content-->
@@ -333,6 +337,9 @@
       </div>
     </div>
   </section>
+
+  <!-- Mobile modal fix -->
+  <script src="dist/js/fs-modal.min.js"></script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

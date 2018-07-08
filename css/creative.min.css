@@ -343,6 +343,11 @@ header.masthead p {
     h7 {
         font-size: 2rem;
     }
+    .parallax {
+        background-image: url("../img/about/about-us.jpg");
+        background-size: cover;
+        background-attachment: unset;
+    }
 }
 
 .portfolioItem {
@@ -411,6 +416,9 @@ header.masthead p {
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+}
+.modal {
+    cursor: pointer;
 }
 
 .modal-content {
