@@ -32,6 +32,16 @@ h1, h2, h3, h4, h5, h6, h7 {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
 
+h2 {
+    color: white;
+    font-size: 20px;
+}
+
+h3 {
+    color: white;
+    font-size: 15px;
+}
+
 h7 {
     font-size: 3rem;
 }
@@ -56,19 +66,20 @@ section {
     margin-top: 0
 }
 
-.service-box {}
+/* .service-box {} */
 
 /* parallax scroll */
-.parallax { 
+
+.parallax {
     /* The image used */
     background-image: url("../img/about/about-us.jpg");
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-	background-size: cover;
-	padding: 120px;
-	/* margin: 20px 0px 20px 0px; */
+    background-size: cover;
+    padding: 120px;
+    /* margin: 20px 0px 20px 0px; */
 }
 
 #myImage {
@@ -326,11 +337,9 @@ header.masthead p {
     #about {
         padding: 25px;
     }
-    
     #myImage {
         max-width: 100%;
     }
-
     h7 {
         font-size: 2rem;
     }
@@ -338,44 +347,63 @@ header.masthead p {
 
 .portfolioItem {
     display: block;
-    padding: 2rem;
-    border: 1px solid red;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
 }
 
 .image {
     display: block;
     width: 100%;
     height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #dde1d7;
-  }
-  
-  .portfolioItem:hover .overlay {
-    opacity: .8;
-  }
-  
-  .text {
+}
+
+.text,
+.subText {
     color: white;
-    font-size: 20px;
     position: absolute;
-    top: 50%;
+    width: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
+.text {
+    top: 50%;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(221, 225, 215);
+    background: rgba(221, 225, 215, .9);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    transition: .2s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolioItem:hover .overlay {
+    opacity: 1;
+}
+
+.portfolioItem:hover .image,
+.portfolioItem:focus .image {
+    transform: scale(1.03);
+    transition: .2s ease;
+}
+
+.image {
+    transition: .2s ease;
+}
 .full-width {
     width: 100vw;
     position: relative;
@@ -383,4 +411,20 @@ header.masthead p {
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+}
+
+.modal-content {
+    background-color: transparent;
+    border: none;
+}
+.modal-body {
+    padding: 0px;
+    background: none;
+}
+.popupImage {
+    max-width: 100%;
+}
+
+.close {
+    float: right;
 }
