@@ -356,16 +356,13 @@ header.masthead p {
     }
     .mobileDescription {
         display: block!Important;
-        /* margin-bottom: 15px; */
+        margin-bottom: -90px;
         position: relative;
         bottom: 110px;
         background: rgba(221, 225, 215, .9); 
         color: #f1f1f1;
         width: 100%;
         padding: 20px;
-    }
-    .image {
-        margin: -30px 0px -30px 0px;
     }
 }
 
@@ -455,4 +452,13 @@ header.masthead p {
 
 .container .mobileDescription {
     display: none;
+}
+
+.portfolioLink {
+    color: rgba(221, 225, 215);
+}
+
+.portfolioLink:hover {
+    color: rgb(207, 212, 200);
+    font-size: 18px;
 }
