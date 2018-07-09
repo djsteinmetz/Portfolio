@@ -356,17 +356,22 @@ header.masthead p {
     }
     .mobileDescription {
         display: block!Important;
-        position: absolute;
-        bottom: 48px;
+        /* margin-bottom: 15px; */
+        position: relative;
+        bottom: 110px;
         background: rgba(221, 225, 215, .9); 
         color: #f1f1f1;
         width: 100%;
         padding: 20px;
     }
+    .image {
+        margin: -30px 0px -30px 0px;
+    }
 }
 
 .portfolioItem {
     display: block;
+    /* max-height: 350px; */
     padding: 0px;
     position: relative;
     overflow: hidden;
