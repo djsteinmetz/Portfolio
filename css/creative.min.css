@@ -329,7 +329,10 @@ header.masthead p {
     box-shadow: 0 0 0 .2rem rgba(221, 225, 215, .5)!important
 }
 
-.fa:before {
+.fa:before,
+.fas:before,
+.far:before,
+.fab:before {
     color: #cfd3c9;
 }
 
